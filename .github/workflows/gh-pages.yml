@@ -23,10 +23,10 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "latest"
+            hugo-version: "0.115.4"
 
       - name: Build
-        run: hugo mod get -u ./... && hugo --minify
+        run: hugo --baseURL="https://programador-com-p.github.io/" --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
