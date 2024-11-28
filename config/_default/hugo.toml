@@ -4,7 +4,7 @@
 
 theme = "blowfish" # UNCOMMENT THIS LINE
 themesDir = "themes"
-baseURL = "https://programador-com-p.github.io/"
+baseURL = "https://programador-com-p.github.io/my-blog"
 defaultContentLanguage = "en"
 pluralizeListTitles = true # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
